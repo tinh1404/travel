@@ -1,0 +1,181 @@
+/* PC */
+@media (min-width:64em) {
+
+}
+/* Tablet & Mobile */
+@media (max-width:63.9375em) {
+   body {
+    min-width: 700px;
+   }
+   .header__search {
+      display: none;
+   }
+   .header__nav .header__nav-list {
+      justify-content: flex-end;
+      width: 100%;
+   }
+   .content__welcome {
+      line-height: 1.6;
+   }
+   .content__slider {
+      min-width: 100%;
+   }
+   .change__languages{
+      right: 5%;
+   }
+   .products-hot .content__products-hot-list .content__product-hot {
+      width: 100%;
+      margin-bottom: 20px;
+      height: 100%;
+   }
+   .products-hot .content__products-hot-list .content__product-hot:nth-child(2) {
+      margin: 0  0 20px 0;
+      height: 100%;
+   }
+   .content__products .content__products-search .content__products-input{
+      display: grid;
+   }
+   .products-list  .product-item {
+      width: calc(93% /2);
+   }
+   .footer-row .footer-col{
+      width: calc(100% / 3);
+   }
+   .modal__list-products .product-item {
+      width: calc(93.77% /2 );
+   }
+   .page__tintuc .page__clip {
+      grid-template-columns: auto auto;
+   }
+   .page__tintuc .page__clip .div1 {
+      grid-area: 2/1/-1/-1;
+      height: 400px;
+   }
+   .page__content-body .page__content-text {
+      display: block;
+   }
+   .page__content-body .page__content-text .text-img {
+      width: 100%;
+   }
+   .products .products__item {
+      display: block;
+   }
+   .products .products__item .product__item-list-img {
+      width: 100%;
+   }
+   .product__item-list-img .product__img-list > img {
+      width: 45%;
+      margin: 0 9px;
+   }
+   .products__item .product__item {
+      width: 100%;
+      margin-top: 10px;
+   }
+   .products .product__item .product-item-buy,.products .product__item .product-item-book {
+      display: inline-block;
+   }
+   .products .product__item .product-item-num {
+      margin-right: 150px;
+      width: 100px;
+   }
+   .products-list-item .products-search {
+      display: flex;
+      justify-content: center;
+   }
+   .products-list-item .products-search > select {
+      width: 50%;
+   }
+}
+/* Tablet */
+@media (min-width:46.25em) and (max-width:63.9375em) {
+}
+/* Mobile */
+@media (max-width:46.1875em) {
+   body {
+      min-width: 300px;
+   }
+
+   .header__logo {
+      display: none;
+
+   } 
+   .header__container {
+      display: block;
+   }
+   .header__log-mobile {
+      display: flex;
+      justify-content: space-between;
+      line-height: 80px;
+      align-items: center;
+      height: 75px;
+   }
+   .header__log-mobile > a > .header__logo-mobile-svg {
+      width: 100px;
+   }
+   .mobile-menu-btn {
+      display: block;
+      position: relative;
+      width: 3%;
+      padding: 0 20px;
+      font-size: 28px;
+   }
+   .header__nav {
+      left: 0;
+      width: 750px;
+      height: 300px;
+      position: absolute;
+      top: 75px;
+      background-color:rgb(0, 0, 0);
+      line-height: 1.5;
+      display: none;
+   }
+   .header__nav .header__nav-list {
+      display: block;
+      margin: 0;
+   }
+   .header__nav .header__nav-list .header__nav-item {
+      padding: 10px 0;
+   }
+   .header__nav-list .header__nav-item .header__nav-link {
+      color:#fff;
+   }
+   .change__languages-list:last-child::before {
+      display: none;
+   }
+   .change__languages{
+      right: auto;
+      width: 750px;
+   }
+   .change__languages-container::after {
+      display: none;
+   }
+   .header__nav-languge {
+      width: 14%;
+      height: 42px;
+   }
+   .change__languages-container {
+      display: block;
+   }
+   .products-list  .product-item {
+      width: 100%;
+   }
+   .content__page-luxstay .content__page-list{
+      font-size: 10px;
+   }
+   .footer-row .footer-col{
+      width: 100% ;
+   }
+   .products-list-item .products-search {
+      display: grid;
+      grid-template-columns: 100%;
+   }
+   .products-list-item .products-search > select {
+      width: 100%;
+   }
+   .modal__list-products .product-item {
+      width:100%;
+   }
+   .page__tintuc .page__clip {
+      grid-template-columns: auto;
+   }
+}
